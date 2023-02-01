@@ -1,0 +1,20 @@
+.add-page {
+  margin-top: 20px;
+  text-align: center;
+}
+.add-page .input-field {
+  width: 70%;
+  margin: auto;
+}
+.add-page .input-field input {
+  width: 100%;
+  background-color: var(--primary);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 15px;
+  font-size: 18px;
+  color: var(--white);
+}
+.add-page .add-page-contant {
+  margin: 25px;
+}

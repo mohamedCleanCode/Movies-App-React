@@ -1,0 +1,37 @@
+.add-page-card {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.add-page-card img {
+  width: 135px;
+  height: 135px;
+  margin-right: 25px;
+  border-radius: 10px;
+}
+.add-page-card .info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.add-page-card .info .title {
+  color: var(--primary);
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.add-page-card .info .year {
+  font-weight: bold;
+}
+.add-page-card .info .controls {
+  margin-top: 50px;
+}
+.add-page-card .info .controls button {
+  background-color: var(--secondary);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-right: 10px;
+  color: white;
+  font-size: 15px;
+}
