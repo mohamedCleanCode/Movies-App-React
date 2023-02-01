@@ -52,3 +52,10 @@ ul {
   font-size: 20px;
   text-transform: uppercase;
 }
+.btn {
+  cursor: pointer;
+}
+.btn:disabled {
+  pointer-events: none;
+  opacity: 0.6;
+}
