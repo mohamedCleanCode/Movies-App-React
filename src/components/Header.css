@@ -1,0 +1,29 @@
+.header {
+  background-color: var(--primary);
+  min-height: 60px;
+  color: var(--white);
+  display: flex;
+  align-items: center;
+}
+.header .container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .logo {
+  width: 30%;
+}
+.header .nav {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header .nav li {
+  margin-right: 15px;
+}
+.header .nav li:last-child {
+  margin-right: 0;
+}
