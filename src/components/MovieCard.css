@@ -1,7 +1,10 @@
 .movie-card {
   width: 250px;
-  height: 380;
+  height: 380px;
   position: relative;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .movie-card img {
   width: 100%;
