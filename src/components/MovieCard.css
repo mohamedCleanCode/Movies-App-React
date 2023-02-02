@@ -1,0 +1,51 @@
+.movie-card {
+  width: 250px;
+  height: 380;
+  position: relative;
+}
+.movie-card img {
+  width: 100%;
+  height: 100%;
+}
+.over-lay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #0000005e;
+  display: none;
+  border: 2px solid var(--secondary);
+  transition: all 0.3s linear;
+}
+.movie-card:hover .over-lay {
+  display: block;
+}
+.icons-controls {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #000000d6;
+  padding: 10px 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80px;
+  border-radius: 8px;
+  transition: all 0.3s linear;
+  display: none;
+}
+.icons-controls button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.icons-controls button i {
+  color: var(--white);
+  transition: all 0.3s linear;
+}
+.icons-controls button:hover i {
+  color: var(--secondary);
+}
+.movie-card:hover .icons-controls {
+  display: flex;
+}

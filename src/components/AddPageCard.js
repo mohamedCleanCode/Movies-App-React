@@ -5,7 +5,7 @@ import { useMovieContext } from "./context/GlobalContext";
 
 const AddPageCard = (props) => {
   const movieContext = useMovieContext();
-  const { Title, Year, imdbID, Poster } = props.movie;
+  const { Title, Year, Poster } = props.movie;
   const statusWatchList = movieContext.watchList.find((movie) => {
     return movie.imdbID === props.movie.imdbID;
   });
